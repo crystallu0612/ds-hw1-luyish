@@ -1,0 +1,25 @@
+
+
+body{
+  background-color: rgb(50,50,255);
+  border: 2px solid black;
+  color:orange;
+}
+.placeholder{
+  background-color: rgb(50,50,255);
+  border: 2px solid white;
+  color:orange;
+}
+
+  table,th,td{
+    border: 1px solid white;
+  }
+
+  #navigation{
+    background-color: rgb(50,50,255);
+    border: 2px solid white;
+    color:orange;
+    text-align: center;
+    font-size: 20px;
+  }
+  a:link{color: orange;}
