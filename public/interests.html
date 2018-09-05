@@ -37,7 +37,7 @@
     </div>
 
     <!--table starts here-->
-    <table class="table table-hover">
+    <table id="restaurants" class="table table-hover">
   <thead>
     <tr>
       <th scope="col">Restaurant Name</th>
@@ -80,6 +80,10 @@
     </tr>
   </tbody>
 </table>
+<script src='js/tablesort.min.js'></script>
+<script>
+  new Tablesort(document.getElementById('restaurants'));
+</script>
     <!--table ends here-->
     <form>
       Restaurant Name <br>
